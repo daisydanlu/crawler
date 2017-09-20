@@ -20,8 +20,7 @@ public class CrawlerTest {
 	public static void main(String[] args) {
 		DOMConfigurator.configure("log4j.xml");
 		Logger log = Logger.getLogger(CrawlerTest.class);
-		//String beginUrl = "http://baseUrl/";
-		String beginUrl = "http://dsplab.eng.fiu.edu/dsp/dr_barreto.html";
+		String beginUrl = "http://baseUrl/";
 		log.info("Crawler start.");
 		CrawlerConfiguration cfg = new CrawlerConfiguration();
 		PageCrawler crawler = new PageCrawler(cfg);
